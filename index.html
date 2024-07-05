@@ -6,15 +6,17 @@
     <title>AllDev</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/media.css">
 </head>
 <body>
     <header>
         <div class="logo__alldevs">
             <img src="imgs/Logo.png" alt="Logo do alura devs">
         </div>
+        <input type="text" name="pesquisa" id="pesquisa" placeholder="Busque por algo">
         <div class="menus">
-            <button>
-                <img src="imgs/Lupa.png" alt="campo de pesquisa">
+            <button id="lupa">
+                <img src="imgs/Lupa.png" alt="campo de pesquisa" >
             </button>
             <button>
                 <img src="imgs/Menu__hamburguer.png" alt="menu hamburguer">
@@ -44,21 +46,23 @@
             </div>
             <div class="person">
                 <h2 >personalização</h2>
-                <p>
-                    <select name="tecno" id="tecno" aria-placeholder="Javascript">
-                        <option value="JS">Javascript</option>
-                        <option value="JAVA">Java</option>
-                        <option value="RUBY">Ruby</option>
-                        <option value="C">C</option>
-                        <option value="C#">C#</option>
-                        <option value="HTML">HTML</option>
-                        <option value="CSS">CSS</option>
-                    </select>
-                </p>
-                <div class="retangulo">
-                    <div>
-                        <button>
-                        </button>
+                <div class="container__person">
+                    <p>
+                        <select name="tecno" id="tecno" aria-placeholder="Javascript">
+                            <option value="JS">Javascript</option>
+                            <option value="JAVA">Java</option>
+                            <option value="RUBY">Ruby</option>
+                            <option value="C">C</option>
+                            <option value="C#">C#</option>
+                            <option value="HTML">HTML</option>
+                            <option value="CSS">CSS</option>
+                        </select>
+                    </p>
+                    <div class="retangulo">
+                        <div>
+                            <button>
+                            </button>
+                        </div>
                     </div>
                 </div>
                 <input type="submit" value="Salvar projeto" id="submit">

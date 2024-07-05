@@ -19,6 +19,10 @@ header{
     width: 48px;
 }
 
+#pesquisa{
+    display: none;
+}
+
 .planoDeFundo{
     background-color: #6BD1FF;
     width: 343px;

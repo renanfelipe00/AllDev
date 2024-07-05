@@ -1,0 +1,68 @@
+@media (min-width: 768px){
+    #pesquisa{
+        display: block;
+        height: 36px;
+        padding: 10px 16px;
+        border-radius: 8px;
+        width: 431px;
+        background-color: #FFFFFF29;
+    }
+
+    #lupa{
+        display: none;
+        width: 0px;
+    }
+
+    .planoDeFundo{
+        width: 704px;
+        height: 366px;
+    }
+
+    .input__codigo{
+        width: 640px;
+        height: 302px;
+    }
+
+    #IDE{
+        width: 636px;
+        height: 275px;
+    }
+
+    .highlight__bot{
+        width: 704px;
+        height: 56px;
+    }
+    #nome__projeto{
+        width: 684px;
+    }
+    #desc__projeto{
+        width: 684px;
+    }
+    .container__person{
+        display: grid;
+        grid-template-columns: 50%, 50%,;
+        grid-template-rows: 0% 50%;
+    }
+    .container__person p{
+        grid-column: 1;
+
+        & #tecno{
+            height: 56px;
+            margin: 3px;
+        }
+    }
+
+    .retangulo div{
+        height: 56px;
+    }
+
+    .container__person div{
+        grid-column: 2;
+        margin: 0px;
+    }
+
+    #submit{
+        margin-top: 30px;
+        width: 704px;
+    }
+}
