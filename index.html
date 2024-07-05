@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AllDev</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <header>
+        <div class="logo__alldevs">
+            <img src="imgs/Logo.png" alt="Logo do alura devs">
+        </div>
+        <div class="menus">
+            <button>
+                <img src="imgs/Lupa.png" alt="campo de pesquisa">
+            </button>
+            <button>
+                <img src="imgs/Menu__hamburguer.png" alt="menu hamburguer">
+            </button>
+        </div>
+    </header>
+    <main>
+        <section class="planoDeFundo">
+            <div class="input__codigo">
+                <div class="mac__buttons">
+                    <div id="red"></div>
+                    <div id="yellow"></div>
+                    <div id="green"></div>
+                </div>
+                <textarea name="IDE" id="IDE" wrap="off"></textarea>
+            </div>
+        </section>
+        <section class="container__desc">
+            <div class="visualizar">
+                <button class="highlight__bot">Visualizar com o highlight</button>
+            </div>
+            <div class="inf__projeto">
+                <h2>seu projeto</h2>
+                <input type="text" name="nome__projeto" id="nome__projeto" placeholder="Nome do seu projeto">
+                <br>
+                <input type="text" name="desc__projeto" id="desc__projeto" placeholder="Descrição do seu projeto">
+            </div>
+            <div class="person">
+                <h2 >personalização</h2>
+                <p>
+                    <select name="tecno" id="tecno" aria-placeholder="Javascript">
+                        <option value="JS">Javascript</option>
+                        <option value="JAVA">Java</option>
+                        <option value="RUBY">Ruby</option>
+                        <option value="C">C</option>
+                        <option value="C#">C#</option>
+                        <option value="HTML">HTML</option>
+                        <option value="CSS">CSS</option>
+                    </select>
+                </p>
+                <div class="retangulo">
+                    <div>
+                        <button>
+                        </button>
+                    </div>
+                </div>
+                <input type="submit" value="Salvar projeto" id="submit">
+            </div>
+        </section>
+    </main>
+</body>
+</html>

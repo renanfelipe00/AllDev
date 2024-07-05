@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+body{
+    background-color: #051D3B;
+    color: white;
+    font-family: 'Roboto Mono';
+
+}
+
+header{
+    display: flex;
+    margin: 16px;
+    height: 56px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menus button {
+    width: 48px;
+}
+
+.planoDeFundo{
+    background-color: #6BD1FF;
+    width: 343px;
+    height: 500px;
+    margin: auto;
+    border-radius: 8px;
+    margin-top: 30px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.input__codigo{
+    background-color: #141414;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.238);
+}
+
+#IDE{
+    background-color: #141414;
+    width: 279px;
+    height: 428px;
+    margin-top: 5px;
+    font-size: 14px;
+    resize: none;
+}
+#IDE:focus{
+    border: none;
+    outline: none;
+}
+
+.mac__buttons{
+    display: flex;
+    width: 52px;
+    height: 12px;
+    justify-content: space-around;
+}
+#red{
+    background-color: #FF5F56;
+    border-radius: 160px;
+    width: 12px;
+    height: 12px;
+}
+#yellow{
+    background-color: #FFBD2E;
+    border-radius: 160px;
+    width: 12px;
+    height: 12px;
+}
+#green{
+    background-color: #27C93F;
+    border-radius: 160px;
+    width: 12px;
+    height: 12px;
+}
+
+.container__desc{
+    display: grid;
+    justify-content: center;
+}
+
+.visualizar{
+    display: flex;
+    justify-content: center;
+    margin: 40px 0px 10px 0px;
+}
+
+.highlight__bot{
+    background-color:#5081FB14;
+    width: 343px;
+    height: 50px;
+    border-radius: 8px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.inf__projeto{
+    margin: 30px 0px 0px 16px;
+
+    & h2{
+        font-weight: 200;
+        font-size: 1.3em;
+    }
+    & input {
+        margin: 25px 0px 0px 0px;
+        background-color: #FFFFFF29;
+    }
+}
+
+#nome__projeto{
+    width: 323px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+#desc__projeto{
+    width: 323px;
+    padding: 20px 10px 40px 10px;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+.person{
+    margin: 30px 0px 0px 16px;
+
+    & h2{
+        font-weight: 200;
+        margin: 10px 0px 15px 0px;
+        font-size: 1.3em;
+    }
+}
+
+#tecno{
+    background-color: #FFFFFF29;
+    width: 343px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 300;
+    margin: 10px 0px 5px 0px;
+}
+#tecno option {
+    font-size: 15px;
+    color: black;
+}
+
+.retangulo div{
+    border: 2px solid white;
+    border-radius: 8px;
+    height: 56px;
+    width: 343px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+}
+.retangulo div button{
+    background-color: #6BD1FF;
+    border-radius: 4px;
+    width: 327px;
+    height: 40px;
+    cursor: pointer;
+}
+
+#submit{
+    background-color: #5081FB;
+    color: black;
+    border-radius: 8px;
+    width: 343px;
+    height: 56px;
+    cursor: pointer;
+    margin: 5px 0px 60px 0px;
+}
